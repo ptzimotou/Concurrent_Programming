@@ -1,0 +1,4 @@
+gcc mandel.c mandelcalc.c -o mandel -L /usr/X11R6/lib -lX11
+
+
+gcc mandel.c mandelcalc.c -o mandel -L /usr/X11R6/lib -lX11 -I/opt/X11/include	
